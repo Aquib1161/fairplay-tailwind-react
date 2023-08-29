@@ -216,7 +216,8 @@ function Dashboard() {
                     <span className='w-full flex justify-center items-center text-white'>2</span>
                   </div>
                 </div>
-                <div className='lg:flex w-[100%] p-1.5'>
+                <a href='/Details' target='_blank'>
+                <div className='lg:flex w-[100%] p-1.5' >
                   <div className='lg:w-[35%] w-[100%] p-1 flex justify-between items-center'>
                     <div>
                       <div className='flex justify-start items-center cursor-pointer'>
@@ -249,6 +250,8 @@ function Dashboard() {
 
 
                 </div>
+                </a>
+               
               </div>
 
               <div className='bg-[#FFFFFF] divide-y divide-[#C6D2D8] border border-[#C6D2D8] rounded-xl'>
